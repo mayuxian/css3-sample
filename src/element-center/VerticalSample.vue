@@ -30,7 +30,7 @@
         <div
           style="border:1px solid red;position:absolute;top:0;bottom:0;
         margin:auto 0;height:30px;"
-        >绝对定位垂直居中:top：0;bottom:0;margin:auto 0;</div>
+        >绝对定位垂直居中:position:absolute;top:0;bottom:0;margin:auto 0;</div>
       </div>
       <div style="display:table;border:1px solid pink;height:50px;">
         <div
