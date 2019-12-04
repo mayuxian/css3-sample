@@ -13,17 +13,16 @@
     <br />
     <div class="hv_parent">
       <div class="hv_child2">
-        方式二：transform, left: 50%;top: 50%;transform: translate(-50%, -50%);
+        方式二：left: 50%;top: 50%;transform: translate(-50%, -50%);
         <div>
           优点:代码量少
-          缺点:
-          IE8不支持, 属性需要追加浏览器厂商前缀, 可能干扰其他 transform 效果, 某些情形下会出现文本或元素边界渲染模糊的现象.
+          缺点:IE8不支持, 属性需要追加浏览器厂商前缀, 可能干扰其他 transform 效果, 某些情形下会出现文本或元素边界渲染模糊的现象.
         </div>
       </div>
     </div>
     <div class="hv_parent">
       <div class="hv_child3">
-        方式三：绝对定位, height: 40px;width: 400px;left:50%;top:50%;margin-top: -20px;margin-left: -200px;
+        方式三：height:固定;width:固定;left:50%;top:50%;margin-top:-0.5*height;margin-left:- 0.5*width;
         <div>
           优点:
           适用于所有浏览器.
@@ -45,14 +44,10 @@
       <div class="hv_flexChild2">绿</div>
       <div class="hv_flexChild3">蓝</div>
     </div>
-    <h1>parent::after布局</h1>
+    <h1>after伪元素实现水平垂直居中</h1>
     <div class="parent">
-      <div class="son">垂直水平居中</div>
+        <div class="son">after伪元素实现水平垂直居中</div>
     </div>
-    <h1>after微元素实现水平垂直居中</h1>
-     <div class="parent">
-        <div class="son">垂直居中:after方式</div>
-      </div>
   </div>
 </template>
 

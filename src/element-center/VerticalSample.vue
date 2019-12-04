@@ -16,15 +16,15 @@
 
       <div style="border:1px solid red;height:50px;position:relative;">
         <div
-          style="border:1px solid red;height:30px;
+          style="border:1px solid black;
         position:absolute;top:50%;transform:translateY(-50%); "
         >绝对定位垂直居中：position:absolute;top:50%;transform:translateY(-50%);</div>
       </div>
 
       <div style="border:1px solid red;height:50px;position:relative;">
         <div
-          style="position:absolute;top:50%;height:20px;margin-top:-10px;color:red;"
-        >绝对定位垂直居中：position:absolute;top:50%;margin-top:0.5*元素height</div>
+          style="position:absolute;top:50%;height:20px;margin-top:-10px;color:red;border:1px solid black;"
+        >绝对定位垂直居中：position:absolute;top:50%;margin-top:-0.5*元素height</div>
       </div>
       <div style="border:1px solid red;height:50px;position:relative;">
         <div
