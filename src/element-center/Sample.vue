@@ -10,14 +10,14 @@
     <!-- https://blog.csdn.net/weixin_42259266/article/details/89244691 -->
     <br />
     <!-- <horizontal-sample></horizontal-sample> -->
-    <!-- <vertical-sample></vertical-sample> -->
+    <vertical-sample></vertical-sample>
     <hv-sample></hv-sample>
     <!-- <margin></margin> -->
   </div>
 </template>
 <script>
 // import HorizontalSample from './HorizontalSample';
-// import VerticalSample from './VerticalSample';
+import VerticalSample from './VerticalSample';
 import HvSample from './HV';
 // import Margin from './Margin';
 export default {
@@ -28,7 +28,7 @@ export default {
   components: {
     HvSample,
     // HorizontalSample,
-    // VerticalSample,
+    VerticalSample,
     // Margin
   }
 }

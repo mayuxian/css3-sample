@@ -33,6 +33,7 @@
       </div>
     </div>
     <h1>Flex布局</h1>
+    <h2>Flex 优点：内容块的高度任意，优雅的溢出。缺点：IE8/IE9不支持，需要浏览器前缀，渲染可能会有问题</h2>
     <div class="hv_flex">
       <div style="width: 20px;">左</div>
       <div class="hv_flexChild">flex布局垂直水平居中</div>
@@ -48,6 +49,10 @@
     <div class="parent">
       <div class="son">垂直水平居中</div>
     </div>
+    <h1>after微元素实现水平垂直居中</h1>
+     <div class="parent">
+        <div class="son">垂直居中:after方式</div>
+      </div>
   </div>
 </template>
 
@@ -159,5 +164,25 @@ export default {
   vertical-align: middle;
   border: 1px solid red;
   /* width: 100%; */
+}
+
+.parent {
+  border: 2px solid blue;
+  text-align: center; /*设置可水平居中*/
+  height: 100px;
+}
+
+.parent::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+
+}
+
+.son {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid blue;
 }
 </style>
