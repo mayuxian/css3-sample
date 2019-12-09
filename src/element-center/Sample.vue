@@ -18,7 +18,7 @@
 <script>
 // import HorizontalSample from './HorizontalSample';
 import VerticalSample from './VerticalSample';
-import HvSample from './HV';
+import HvSample from './H&V';
 // import Margin from './Margin';
 export default {
   name: "element-center-sample", 
