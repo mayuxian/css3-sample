@@ -1,29 +1,25 @@
 <template>
-  <div id="app">
-    <!--  测试
-    使用flex布局，显示页面，展现列表。-->
-    <!-- <element-center-sample></element-center-sample> -->
-    <!-- <canvas-sample></canvas-sample> -->
-    <MaskImage></MaskImage>
-  </div>
+  <MaskImage />
 </template>
 
-<script>
-
-// import ElementCenterSample from './element-center/Sample';
-// import CanvasSample from './canvas/Sample';
+<script lang="ts">
+import { defineComponent } from 'vue'
 import MaskImage from './animation/MaskImage.vue'
-export default {
-  name: 'app',
+export default defineComponent({
+  name: 'App',
   components: {
-    // ElementCenterSample,
-    // CanvasSample,
     MaskImage
   }
-}
+})
 </script>
 
 <style>
 #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
