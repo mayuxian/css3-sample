@@ -1,14 +1,17 @@
 <template>
-  <MaskImage />
+  <!-- <MaskImage /> -->
+  <Shuangfeiyi/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import MaskImage from './animation/MaskImage.vue'
+import Shuangfeiyi from './examples/shuangfeiyi-layout/index.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    MaskImage
+    MaskImage,
+    Shuangfeiyi
   }
 })
 </script>

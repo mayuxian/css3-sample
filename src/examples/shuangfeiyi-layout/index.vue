@@ -40,6 +40,14 @@ export default {
   margin-left: -200px;
   background: #0c9;
 }
+//right 下面的样式也可以
+// #right {
+//   float: right;
+//   width: 200px;
+//   height: 100px;
+//   margin-left: -100%;
+//   background: #0c9;
+// }
 
 /* 给内部div添加margin，把内容放到中间栏，其实整个背景还是100% */
 #inside {
